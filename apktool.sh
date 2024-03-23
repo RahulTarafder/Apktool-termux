@@ -14,11 +14,11 @@ banner ( ) {
                                                  cd files
                                                  export apktool_version=2.9.3
 
-sh -c 'wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_$apktool_version.jar -O $PREFIX/bin/apktool.jar'
+sh -c 'wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_$apktool_version.jar -O /usr/local/bin/apktool.jar'
 
-chmod +r $PREFIX/bin/apktool.jar
+chmod +r /usr/local/bin/apktool.jar
 
-sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O $PREFIX/bin/apktool' && chmod +x $PREFIX/bin/apktool
+sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool' && chmod +x /usr/local/bin/apktool
                                                  
                                                  cd ~/Apktool-termux ; bash apktool.sh
                                                  termux-open-url https://h4ck3r.me/
