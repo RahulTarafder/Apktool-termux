@@ -31,5 +31,3 @@ cd ~/Apktool-termux/files
 chmod +x java.sh
 
 echo -e "\e[1;34m[√] \e[96mNow run bash apktool.sh \e[0m"
-
-termux-open-url https://www.google.com/search?q=How%20to%20install%20apktool%20in%20termux%20site%3Ah4ck3r.me
