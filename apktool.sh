@@ -21,7 +21,6 @@ chmod +r /usr/local/bin/apktool.jar
 sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool' && chmod +x /usr/local/bin/apktool
                                                  
                                                  cd ~/Apktool-termux ; bash apktool.sh
-                                                 termux-open-url https://h4ck3r.me/
                                                  
                                                  }
                                                  Java() {
